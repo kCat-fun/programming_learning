@@ -4,10 +4,13 @@ int main(void) {
     int n, i;
     scanf("%d", &n);
     for(i=1; i<n; i+=2) {
-        printf("%d ", i);
+        printf("%d", i);
+        if(i+2 < n) {
+            printf(" ");
+        }
     }
     if(i <= n ) {
-        printf("%d\n", i);
+        printf(" %d\n", i);
     }
     else {
         printf("\n");

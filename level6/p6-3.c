@@ -13,7 +13,7 @@ void split_print(char str[]) {
     char split_str[100][101];
     int n=0, count=0;
     for(int i=0; str[i]; i++) {
-        if(str[i] == ',') {
+        if(str[i] == '.') {
             n++;
             count=0;
         }
